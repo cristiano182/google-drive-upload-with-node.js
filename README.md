@@ -1,6 +1,13 @@
 # google-drive-upload-with-node.js
 upload files to google drive with google-apis
 
+-------------------------------------------------
+
+
+
+/*
+
+
 var { google } = require("googleapis");
 var drive = google.drive("v3");
 var key = require("../private_key.json");
@@ -72,3 +79,5 @@ drive.files.create(
     }
   }
 );
+
+*/
